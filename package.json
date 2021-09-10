@@ -1,0 +1,23 @@
+{
+  "license": "MIT",
+  "main": "./lib",
+  "author": "dncgmh",
+  "scripts": {
+    "dev": "ts-node lib",
+    "start": "node dist",
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "progress": "^2.0.3",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.153",
+    "@types/node": "^14.0.1",
+    "@types/progress": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
